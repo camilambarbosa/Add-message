@@ -1,0 +1,77 @@
+/*
+ * Enterprise Java Development - Final Test
+ * Due December 15th 2021       
+ * Authors: Camila Barbosa 192622796
+ */
+
+
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    min-width: 100vw;
+
+}
+
+.container {
+
+    width: 40vw;
+    height: 100vw;
+    margin: 0 auto;
+
+}
+
+h1 {
+    padding-top: 1rem;
+    margin-bottom:  1rem;
+    text-align: center;
+}
+
+.button {
+    padding: .9rem;
+    border-radius:5px;
+    cursor: pointer;
+}
+
+
+label {
+    width: 4rem;
+    display: inline-block;
+
+}
+
+input[type="text"] {
+    border: 1px solid black;
+}
+
+
+.linkButton {
+    display: inline-block;
+    
+    
+}
+
+.linkButton2{
+    display: inline-block;
+ 
+    background: #efefef;
+    padding: .8rem;
+    color: black;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.span{
+    margin-top: 5px;
+    display: inline-block;
+}
+
+.foot{
+    display: flex;
+    justify-content: center;
+}

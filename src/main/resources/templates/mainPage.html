@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!--
+ Enterprise Java Development - Final Test
+ Due December 15th 2021       
+ Authors: Camila Barbosa 192622796
+
+-->
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        
+        <link rel="stylesheet" type="text/css" href="/css/styles.css"/>
+    </head>
+    
+    
+    <body>
+        
+        <main class="container">
+
+            <h1> Greetings </h1>
+
+            <div th:each="greeting: ${greetingkList}">
+                            <span th:text="${greeting.name}"/> : <span th:text="${greeting.message}"/><br/>
+            </div> 
+
+            <div class="foot">
+            <a href='/add_Greeting'  class="linkButton2"> Add Greeting</a>
+            </div>
+       </main> 
+    </body>
+</html>
